@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routers import transactions
+from app.routers import transactions
 
 app = FastAPI(title="지출 관리 API")
 

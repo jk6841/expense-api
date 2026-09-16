@@ -1,7 +1,7 @@
 from datetime import datetime
 
 from fastapi import APIRouter, HTTPException, status
-from models import TransactionCreate, TransactionOut
+from app.models import TransactionCreate, TransactionOut
 
 router = APIRouter(prefix="/transactions", tags=["transactions"])
 
